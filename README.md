@@ -148,8 +148,15 @@ I am always looking for ways to improve my project. If you have any suggestions 
 <!-- CONTRIBUTING -->
 ## 📧 Authors <a name="authors"></a>
 
+👤 **Ahmed Hasan Rony**
+
 - ***[Ahmed Hasan Rony](https://github.com/roniy68)***
 
+👤 **Muhammad Aleem**
+
+- GitHub: [@MAleemH](https://github.com/MAleemH)
+- Twitter: [@MAleemHashmi1](https://twitter.com/MAleemHashmi1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-aleem-hashmi-09658a171/)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
