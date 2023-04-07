@@ -19,13 +19,17 @@ def decode_morse(message)
 end
 
 def decode_word(word)
-  #TODO
-  puts word
+  chars = word.split(/ /)
+  str2 = ""
+  chars.each do |character|
+    str2 += decode_char(character)
+  end
+  str2
 end
 
 def decode_char(char)
   # TODO
-  puts char
+  char
 end
 
 puts decode_morse(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
