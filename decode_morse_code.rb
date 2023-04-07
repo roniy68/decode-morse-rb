@@ -10,15 +10,22 @@ MORSE_HASH =
 # and return the corresponding character in uppercase (e.g. decode_char(".-") returns "A").
 
 def decode_morse(message)
-  puts message
+  words = message.split(/   /)
+  arr = []
+  words.each do |word|
+    arr.push decode_word(word)
+  end
+  arr.join(" ")
 end
 
 def decode_word(word)
   #TODO
+  puts word
 end
 
-def decode_char(word)
+def decode_char(char)
   # TODO
+  puts char
 end
 
 puts decode_morse(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
