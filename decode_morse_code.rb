@@ -25,8 +25,7 @@ def decode_word(word)
 end
 
 def decode_char(char)
-  # TODO
-  char
+  MORSE_HASH[char]
 end
 
 puts decode_morse(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
