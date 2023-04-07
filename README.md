@@ -35,36 +35,28 @@
 
 # 📊 Morse Code <a name="about-project"></a>
 
-A web-based application to understand about the basics of React - Redux 
-
+A Morse Code Decoder with Ruby
 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### 🧰 Tech Stack <a name="tech-stack"></a>
 
-- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-- ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-- ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-- ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
+- Ruby
 
 <!-- Features -->
 
 ### 💎 Key Features <a name="key-features"></a>
 
-- Generate a comprehensive Folder Structure for React App 💻
-- Understand the concept of setting up a project with redux 📈
-- Beautifully designed and easy-to-use 🎨
-- Continuous Monitoring 📸
-- Development Tools : Auto refresh and Hot Reload 🔗
+- Generate a comprehensive Folder Structure for Ruby App 💻
+- Understand the concept of setting up a project with bundle and gem 📈
+- Development Tools : Ruby and rbenv 🔗
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
 
-***Live*** :  [Morse Code](https://ahr-Morse Code.netlify.app/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,8 +75,8 @@ In order to run this project you need [Node.js](https://nodejs.org/en/) installe
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-project
-  git clone git@github.com:roniy68/Morse Code.git .
+  git clone https://github.com/roniy68/decode-morse-rb
+  cd decode-morse-rb
 ```
 
 ### Install
@@ -92,7 +84,7 @@ Clone this repository to your desired folder:
 Install the dependencies with:
 
 ```sh
-  npm install
+  bundle install
 ```
 
 ### Usage
@@ -100,25 +92,13 @@ Install the dependencies with:
 To run the project, execute the following command:
 
 ```sh
-  npm start
+  ruby decode-morse-rb
 ```
 
-<!-- ### Run tests
 
-To run tests, run the following command:
+### Output
 
-```sh
-  npm run test
-``` -->
-
-### Deployment
-
-You can deploy this project using:
-
-```sh
-  npm run build
-```
-This will create a production-ready build of your website in `build/` folder, which you can use to deploy on a static site server.
+![image](https://user-images.githubusercontent.com/77187003/230568404-e7bb54cd-5f0c-4ea1-a7c0-7db3fa512c8a.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
